@@ -73,18 +73,18 @@
             label1.AutoSize = true;
             label1.Location = new System.Drawing.Point(12, 92);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(73, 15);
+            label1.Size = new System.Drawing.Size(99, 15);
             label1.TabIndex = 3;
-            label1.Text = "Resolution X";
+            label1.Text = "Max Resolution X";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new System.Drawing.Point(12, 136);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(73, 15);
+            label2.Size = new System.Drawing.Size(99, 15);
             label2.TabIndex = 5;
-            label2.Text = "Resolution Y";
+            label2.Text = "Max Resolution Y";
             // 
             // textBoxY
             // 
