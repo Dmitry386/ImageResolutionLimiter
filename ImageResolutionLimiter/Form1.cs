@@ -17,10 +17,9 @@ namespace ImageResolutionLimiter
         private void Form1_Load(object sender, EventArgs e)
         {
             TextBoxTraceListener tbtl = new TextBoxTraceListener(richTextBoxOutput);
-            Trace.Listeners.Add(tbtl);
-            Debug.WriteLine("Testing Testing 123");
-            checkBoxBackup.Checked = true;
+            Trace.Listeners.Add(tbtl); 
 
+            checkBoxBackup.Checked = true;
             textBoxX.Text = "512";
             textBoxY.Text = "512";
         }
